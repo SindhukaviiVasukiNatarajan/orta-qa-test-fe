@@ -68,3 +68,34 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+---
+
+## 🧪 QA Testing Instructions
+
+### ✅ Prerequisites
+
+Make sure the following are installed before running tests:
+- Node.js (v18+ recommended)
+- NPM
+
+### 🚀 Getting Started
+
+1. Clone the repository (if not already done):
+
+
+2.	Install dependencies:
+    npm install
+
+3.	Start the frontend server:
+
+    npm start
+
+### Running Cypress Tests (Frontend)
+
+Cypress was used for automating frontend validation tests. To run Cypress:
+1.	In the root directory of the frontend, run:
+    npx cypress open
+
+2.	In the Cypress UI, choose your browser and run the test file:
